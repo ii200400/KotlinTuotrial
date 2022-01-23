@@ -1,7 +1,9 @@
 // 코틀린에 있는 원시 타입과 참조 타입 자료형의 종류와 특징을 확인하자.
 // 참고 : https://kotlinlang.org/docs/basic-types.html#numbers-representation-on-the-jvm
 
-fun mainType() {
+package org.kotlinlang
+
+fun main() {
     // 코틀린은 numbers(Byte, Short, Int, Long, Float, Double), character 그리고 boolean
     // 자료형들을 원시타입으로 분류한다.
     // String과 Array 및 사용자 정의 클래스들은 참조타입으로 분류한다.

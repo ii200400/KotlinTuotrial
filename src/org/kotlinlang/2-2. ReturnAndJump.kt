@@ -1,6 +1,6 @@
+package org.kotlinlang
 
-
-fun mainJump() {
+fun main() {
     // 코틀린에는 대표적으로 return, break, continue 세 개의 jump 표현식이 있다.
 
     // return에 의한 jump

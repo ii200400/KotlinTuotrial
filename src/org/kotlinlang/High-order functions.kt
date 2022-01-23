@@ -1,3 +1,5 @@
+package org.kotlinlang
+
 import kotlin.math.pow
 
 class HighOrderFunction {

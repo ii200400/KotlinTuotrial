@@ -13,6 +13,8 @@
 // 원하는 내용이 있다면 파일명을 보고 해당 부분을 참고하거나
 // https://kotlinlang.org/docs 여기에서 검색하자.
 
+package org.kotlinlang
+
 fun main(){
     // 기본적으로 코틀린에서 클래스는 `class`라는 키워드를 이용해서 선언할 수 있다.
     class Person { /*...*/ }
@@ -74,7 +76,7 @@ fun main(){
     // 아래의 클래스를 참고하자!
     // 위와 아래는 같은 의미이며 companion object 명은 생략이 가능하다.
     Person5.someVal
-    Person5.CompanionName.someVal
+    Person5.someVal
 }
 
 // Companion objects, 자바에서 대응하는 키워드는 static 인것 같다.

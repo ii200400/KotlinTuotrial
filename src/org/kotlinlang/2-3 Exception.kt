@@ -1,6 +1,6 @@
-import java.lang.Exception
+package org.kotlinlang
 
-fun mainException(){
+fun main(){
     // try를 실행하고 문제가 생기면 catch를 실행하고 finally를 그렇지 않으면 바로 finally를 실행한다.
     // 이러한 try-catch 문을 변수 초기화에도 사용할 수 있다.
     print("a: ")

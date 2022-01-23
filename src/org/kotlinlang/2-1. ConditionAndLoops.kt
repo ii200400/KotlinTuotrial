@@ -1,15 +1,17 @@
-import java.lang.Exception
-
 // 코틀린의 Control Flow 에 있는
 // 'Conditions and loops', 'Returns and jumps', 'Exceptions'를 순서대로 정리하였다.
 // 본인이 모르는 내용을 중점으로 서술하였다.
 // 참고 : https://kotlinlang.org/docs/control-flow.html
 
+package org.kotlinlang
+
+import java.lang.Exception
+
 enum class Bit {
     ZERO, ONE, TWO, THREE
 }
 
-fun mainCondition() {
+fun main() {
     // C언어에서는 switch와 비슷한 when 문법부터 작성하겠다.
     // 기본적으로 아래와 같이 작성한다.
     print("x(Int) :")
